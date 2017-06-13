@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: pip install --no-deps .
 
 requirements:
@@ -22,11 +22,15 @@ requirements:
   run:
     - python
     - numpy
+    - pytest
 
 test:
   imports:
     - joommfutil
     - joommfutil.typesystem
+    
+  commands:
+    - python -c "import joommfutil; joommfutil.test()"
 
 about:
   home: http://joommf.github.io/
