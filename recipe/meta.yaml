@@ -39,7 +39,6 @@ about:
   summary: Utilities for JOOMMF
   dev_url: https://github.com/joommf/joommfutil
 
-
 extra:
   recipe-maintainers:
     - davidcortesortuno
