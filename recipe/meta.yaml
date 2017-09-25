@@ -1,6 +1,6 @@
-{% set version = "0.7.3" %}
+{% set version = "0.7.4" %}
 {% set name = "joommfutil" %}
-{% set sha256 = "2095ed18f8ed0162a74cde98e5b88c091f8954d822a0e41a2e6fbaf82e560f83" %}
+{% set sha256 = "ab9a1030a3a6783135a69e2ed2f1f9b9774e52d22e9097e77dfb92f971094d50" %}
 
 package:
   name: joommfutil
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: pip install --no-deps .
 
 requirements:
@@ -43,6 +43,6 @@ about:
 extra:
   recipe-maintainers:
     - davidcortesortuno
-    - mb1a15
+    - marijanbeg
     - takluyver
     - fangohr
