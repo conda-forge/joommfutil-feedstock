@@ -1,6 +1,6 @@
-{% set version = "0.7.3" %}
+{% set version = "0.7.6" %}
 {% set name = "joommfutil" %}
-{% set sha256 = "2095ed18f8ed0162a74cde98e5b88c091f8954d822a0e41a2e6fbaf82e560f83" %}
+{% set sha256 = "c54ab8d5e3ad57f046ff4e781cf4ee9189f47be0b5a53b36eac752c8f5da7713" %}
 
 package:
   name: joommfutil
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: pip install --no-deps .
 
 requirements:
@@ -39,10 +39,9 @@ about:
   summary: Utilities for JOOMMF
   dev_url: https://github.com/joommf/joommfutil
 
-
 extra:
   recipe-maintainers:
     - davidcortesortuno
-    - mb1a15
+    - marijanbeg
     - takluyver
     - fangohr
