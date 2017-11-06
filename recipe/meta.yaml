@@ -12,7 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  skip: True  # [py27]
+  number: 1
   script: pip install --no-deps .
 
 requirements:
@@ -30,7 +31,7 @@ test:
     - joommfutil.typesystem
     
   commands:
-    - python -c "import joommfutil; joommfutil.test()"
+    - python -c "import sys; import joommfutil as m; sys.exit(m.test())"
 
 about:
   home: http://joommf.github.io/
