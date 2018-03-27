@@ -1,6 +1,6 @@
-{% set version = "0.7.6" %}
+{% set version = "0.8" %}
 {% set name = "joommfutil" %}
-{% set sha256 = "c54ab8d5e3ad57f046ff4e781cf4ee9189f47be0b5a53b36eac752c8f5da7713" %}
+{% set sha256 = "d20b8306e1d0d0e31ab82a05631a56f834e9caa8562228c523972fe10ffcb5f5" %}
 
 package:
   name: joommfutil
@@ -13,7 +13,7 @@ source:
 
 build:
   skip: True  # [py27]
-  number: 1
+  number: 0
   script: pip install --no-deps .
 
 requirements:
