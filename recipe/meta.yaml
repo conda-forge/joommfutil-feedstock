@@ -37,7 +37,7 @@ about:
   home: http://joommf.github.io/
   license: BSD 3-clause
   license_file: LICENSE
-  summary: Utilities for JOOMMF
+  summary: A JOOMMF utilities package.
   dev_url: https://github.com/joommf/joommfutil
 
 extra:

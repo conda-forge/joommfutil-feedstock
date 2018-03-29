@@ -7,7 +7,7 @@ Package license: BSD 3-clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Utilities for JOOMMF
+Summary: A JOOMMF utilities package.
 
 
 
