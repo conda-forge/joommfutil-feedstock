@@ -14,14 +14,16 @@ Summary: Utilities for JOOMMF
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/joommfutil-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/joommfutil-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/joommfutil-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/joommfutil-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/joommfutil-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/joommfutil-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/joommfutil-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/joommfutil-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/joommfutil-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/joommfutil-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/joommfutil-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/joommfutil-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/joommfutil/badges/version.svg)](https://anaconda.org/conda-forge/joommfutil)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/joommfutil/badges/downloads.svg)](https://anaconda.org/conda-forge/joommfutil)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-joommfutil-green.svg)](https://anaconda.org/conda-forge/joommfutil) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/joommfutil.svg)](https://anaconda.org/conda-forge/joommfutil) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/joommfutil.svg)](https://anaconda.org/conda-forge/joommfutil) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/joommfutil.svg)](https://anaconda.org/conda-forge/joommfutil) |
 
 Installing joommfutil
 =====================
