@@ -1,6 +1,7 @@
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 {% set name = "joommfutil" %}
-{% set sha256 = "e5ff413f1259fa183a1cadc783e8ecced27095f6fca78ac913704d148b1e56c0" %}
+{% set sha256 = "d90cbb28f63d03cc311e0b383793ca62ea89aed16ad40f571411ebddc4710c50" %}
+
 
 package:
   name: joommfutil
