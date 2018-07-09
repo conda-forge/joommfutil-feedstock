@@ -1,6 +1,6 @@
-{% set version = "0.8.2" %}
+{% set version = "0.8.3" %}
 {% set name = "joommfutil" %}
-{% set sha256 = "d90cbb28f63d03cc311e0b383793ca62ea89aed16ad40f571411ebddc4710c50" %}
+{% set sha256 = "78c237624b0c64a49b6d87b390f33dfc91a59083c73b1e6eab0505c518da3429" %}
 
 
 package:
@@ -13,16 +13,16 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True  # [py27]
+  noarch: python
   number: 0
   script: pip install --no-deps .
 
 requirements:
   build:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
+    - python >=3.5
     - numpy
     - pytest
 
