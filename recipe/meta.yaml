@@ -14,12 +14,12 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: pip install --no-deps .
 
 requirements:
   build:
-    - python >=3.6
+    - python
     - pip
   run:
     - python >=3.6
